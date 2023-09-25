@@ -33,3 +33,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#Adding at early development
+.env
+dev.db*
