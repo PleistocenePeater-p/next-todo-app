@@ -9,7 +9,7 @@ type TodoItemProps = {
 }
 export function TodoItem({ id, title, complete, toggleTodo }: TodoItemProps) {
     return (
-      <li className="flex gap-1 items-center">
+      <div className="flex gap-1 items-center">
         <input
           id={id}
           type="checkbox"
@@ -24,6 +24,6 @@ export function TodoItem({ id, title, complete, toggleTodo }: TodoItemProps) {
         >
           {title}
         </label>
-      </li>
+      </div>
     )
   }
